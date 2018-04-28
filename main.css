@@ -1,0 +1,39 @@
+.navbar{
+	min-width: 490px;
+	width: 100%;
+	background: #00BFFF
+}
+
+.navbar-fixed-top a{
+	color: #FFFFFF;
+	font-size: 14px;
+  	font-weight: bold;
+  	padding: 14px 10px;
+  	text-transform: uppercase;
+}
+
+.navbar-fixed-top li {
+  display: inline;
+}
+
+.Home{
+	float: left;
+}
+
+.Home h1{
+	color: #5a5a5a;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 100px;
+}
+
+.Home-images{
+	padding: 10px 100px;
+}
+
+.Home-text{
+	color: #5a5a5a;
+	font-size: 16px;
+	padding: 50px;
+	display: inline-block;
+}

@@ -1,7 +1,8 @@
+/*Home page css */
 .navbar{
-	min-width: 490px;
 	width: 100%;
-	background: #00BFFF
+	background: #00BFFF;
+	overflow: hidden;
 }
 
 .navbar-fixed-top a{
@@ -17,6 +18,7 @@
 }
 
 .Home{
+	min-width: 100%;
 	float: left;
 }
 
@@ -27,13 +29,76 @@
 	padding: 10px 100px;
 }
 
-.Home-images{
-	padding: 10px 100px;
-}
-
 .Home-text{
 	color: #5a5a5a;
 	font-size: 16px;
 	padding: 50px;
 	display: inline-block;
+}
+
+.Home-images{
+	min-width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Contact{
+	text-align: center;
+}
+
+/*Portfolio page css*/
+.projects{
+	width: 100%;
+	padding-top: 5px;
+}
+
+@media screen and (max-width: 450px) {
+	.project-image{
+		width: 250px;
+	}	
+}
+
+@media screen and (min-width: 450px) {
+	.project-image{
+		width: 450px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.project-text{
+		text-align: center;
+	}
+}
+
+.project-images{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+html, body{
+	height: 100%;
+	overflow-x: hidden;
+}
+hr{
+	width: 95%;
+}
+
+#footer{
+	background: #5a5a5a;
+	position: relative;
+	height: 125px;
+	margin-top: -125px;
+	clear: both;
+	color: #FFFFFF;
+}
+
+#container{
+	min-height: 100%;
+}
+
+#main{
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-bottom: 130px;
 }

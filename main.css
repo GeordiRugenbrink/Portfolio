@@ -67,6 +67,7 @@
 @media screen and (min-width: 1200px){
 	.project-text{
 		text-align: center;
+		padding-right: 5%;
 	}
 	.cv-text{
 	text-align: center; 
@@ -100,18 +101,16 @@ hr{
 	background: #5a5a5a;
 	position: relative;
 	height: 125px;
-	margin-top: -125px;
 	clear: both;
 	color: #FFFFFF;
 }
 
 #container{
-	min-height: 100%;
+	min-height: 83%;
 	color: #5a5a5a;
 }
 
 #main{
 	overflow-y: auto;
 	overflow-x: hidden;
-	padding-bottom: 130px;
 }
